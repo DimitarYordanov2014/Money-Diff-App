@@ -59,7 +59,7 @@ function App() {
             type="number"
             value={receivedValue}
             onChange={(e) => setReceivedValue(e.target.value)}
-            placeholder="e.g. 200"
+            placeholder=""
           />
           <select
             value={receivedCurrency}
@@ -79,7 +79,7 @@ function App() {
             type="number"
             value={costValue}
             onChange={(e) => setCostValue(e.target.value)}
-            placeholder="e.g. 50"
+            placeholder=""
           />
           <select
             value={costCurrency}
