@@ -1,0 +1,54 @@
+/* Full height center */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* 👈 instead of center */
+  padding-top: 100px;       
+  background-color: #f7f9fc;
+  font-family: sans-serif;
+}
+
+/* Main container */
+.app {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Rows */
+.row {
+  margin-top: 20px;
+}
+
+/* Inputs and currency select on same line */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input {
+  flex: 1;
+}
+
+select {
+  width: 80px;
+}
