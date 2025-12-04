@@ -52,7 +52,7 @@ function App() {
 
       {/* Row 1: Received Money */}
       <div className="row">
-        <label>Money Received:</label>
+        <label>Получени пари:</label>
         <div className="input-group">
           <input
             ref={inputRef}
@@ -73,7 +73,7 @@ function App() {
 
       {/* Row 2: Cost of Goods */}
       <div className="row">
-        <label>Cost of Goods:</label>
+        <label>Стойност на покупката:</label>
         <div className="input-group">
           <input
             type="number"
@@ -85,15 +85,15 @@ function App() {
             value={costCurrency}
             onChange={(e) => setCostCurrency(e.target.value)}
           >
-            <option value="BGN">BGN</option>
             <option value="EUR">EUR</option>
+            <option value="BGN">BGN</option>
           </select>
         </div>
       </div>
 
       {/* Row 3: Result */}
       <div className="row">
-        <label>Difference:</label>
+        <label>Ресто:</label>
         <div className="input-group">
           <input
             type="text"
