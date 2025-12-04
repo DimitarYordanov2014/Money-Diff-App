@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+
 import "./App.css";
 
 const rate = 1.95583;
@@ -8,7 +9,7 @@ function App() {
   const [receivedCurrency, setReceivedCurrency] = useState("BGN");
 
   const [costValue, setCostValue] = useState("");
-  const [costCurrency, setCostCurrency] = useState("BGN");
+  const [costCurrency, setCostCurrency] = useState("EUR");
 
   const [resultCurrency, setResultCurrency] = useState("EUR");
 
